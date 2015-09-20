@@ -39,14 +39,26 @@ background-image: url('../images/ryu-ready-position.gif');
 .ryu-still {
 background-image: url('../images/ryu-standing-still.png');
 }
+  /*.ryu-still > h2 {
+    text-align: right;
+    text-transform: uppercase;
+    } */
 
 .ryu-throwing {
 background-image: url('../images/ryu-throwing-hadouken.png');
 }
 .ryu-cool {
 background-image: url('../images/ryu-cool.gif');
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 495px;
+    padding: 30px;
 }
-
+/*.ryu-cool > h2 {
+color: aqua;
+    text-align: right;
+    
+} */
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 background-repeat: no-repeat;
 }
