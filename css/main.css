@@ -1,0 +1,77 @@
+/*************Temporary style rules which needs to be deleted later******************************/
+
+
+
+/******************Body Styles *********************************/
+body {
+ background-color: black;
+}
+
+/**************Main div styles*******************************/
+.main {
+background-color: white;
+    margin-top: 110px;
+    padding-left: 100px;
+    max-width: 1200px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+/*****************RYU image div styles **************************/
+.ryu {
+    width: 659px;
+    height: 494px;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing , .ryu-cool{
+width: 650px;
+    height: 494px;
+}
+
+.ryu-ready, .ryu-throwing {
+display: none;
+}
+
+.ryu-ready {
+background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+background-image: url('../images/ryu-standing-still.png');
+}
+  /*.ryu-still > h2 {
+    text-align: right;
+    text-transform: uppercase;
+    } */
+
+.ryu-throwing {
+background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.ryu-cool {
+background-image: url('../images/ryu-cool.gif');
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 495px;
+    padding: 30px;
+}
+/*.ryu-cool > h2 {
+color: aqua;
+    text-align: right;
+    
+} */
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+background-repeat: no-repeat;
+}
+
+.hadouken {
+background-image: url('../images/hadouken.gif');
+    width: 156px;
+    height: 90px;
+   display: none;
+    float: left;
+    position: absolute;
+    z-index: 10;
+    left: 520px;
+    top: 167px;
+
+}
