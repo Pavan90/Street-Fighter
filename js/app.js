@@ -63,7 +63,7 @@ function playHadouken() {
         $('#hadouken-sound')[0].load();
         $('#hadouken-sound')[0].play();
 
-    };
+    }
 function playSong () {
     $('#theme-song')[0].play();
 }
