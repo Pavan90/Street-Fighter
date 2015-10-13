@@ -6,7 +6,6 @@ $(document).ready(function() {
         .mouseleave(function() {
             $('.ryu-ready').hide();
             $('.ryu-still').show();
-<<<<<<< HEAD
 
         })
         .mousedown(function() {
@@ -64,7 +63,6 @@ function playHadouken() {
     $('#hadouken-sound')[0].play();
 
 }
-=======
 
         })
         .mousedown(function() {
@@ -123,4 +121,3 @@ function playHadouken() {
 function playSong () {
     $('#theme-song')[0].play();
 }
->>>>>>> master
